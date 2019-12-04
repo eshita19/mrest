@@ -27,11 +27,30 @@
              - GET /users?sort=birthdate_date:asc
              - GET /users?limit=100
         - **Operation to perform on resource(CRUD ops specified using HTTP verb)**:
-           - DELETE: Delete an existing resource.
-           - GET: Retrieve a representation of a resource.
+           - DELETE: 
+              - Delete an existing resource.
+              - DELETE http://www.example.com/customers/12345/orders.
+              - Response Code: 200 (OK)
+           - GET: 
+              - Retrieve a representation of a resource.
+              - GET http://www.example.com/customers/12345/orders.
+              - Response Code: 200 (OK)
            - HEAD: Identical to a GET except that no message body is returned in the response.
-           - POST: Create a new resource to an existing URL
-           - PUT: Create a new resource to a new URL, or modify an existing resource to an existing URL.
+           - POST
+              - URI: POST http://www.example.com/customers/12345/orders.
+              - Create a new resource.
+              - Response Code : 201 (Created)
+           - PUT: 
+             - Updates or replace a resource.
+             - PUT http://www.example.com/customers/12345/orders/98765
+             - Always pass the complete payload, that is replace the resource data.
+             - Response Code: 200 (OK)
+           - PATCH:
+             - Updates or modifies a resource.
+             - PATCH http://www.example.com/customers/12345/orders/98765
+             - You can pass partial data of the resource to be updated.
+              - Response Code: 200 (OK)
+      
         - Optional Message body containing data
         - Optional Query param, Headers.
            

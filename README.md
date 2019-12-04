@@ -64,7 +64,7 @@
            - Content-type header: Specifies the type of data sent to server by client.
            - Example:  “text/plain”, “application/xml”, “text/html”, “application/json”, “image/gif”, and “image/jpeg”
            - Java XML binding:
-              - http://blog.bdoughan.com/2011/06/using-jaxbs-xmlaccessortype-to.html
+              - https://howtodoinjava.com/jaxb/jaxb-annotations/
            - Java JSON binding:
               - https://www.baeldung.com/jackson-annotations
         - Optional Query param, Headers.

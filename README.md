@@ -65,8 +65,10 @@
            - Example:  “text/plain”, “application/xml”, “text/html”, “application/json”, “image/gif”, and “image/jpeg”
            - Java XML binding:
               - https://howtodoinjava.com/jaxb/jaxb-annotations/
+              - Example : https://github.com/eshita19/restful-service/blob/master/src/main/java/org/emathur/jaxb/JaxbTest.java
            - Java JSON binding:
               - https://www.baeldung.com/jackson-annotations
-        - Optional Query param, Headers.
+        - **JAX-RS specification**:
+          - https://docs.oracle.com/javaee/6/tutorial/doc/gilik.html
            
            

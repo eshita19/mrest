@@ -59,7 +59,12 @@
                - Redirects (300–399)
                - Client errors (400–499)
                - Server errors (500–599)
-        - Optional Message body containing data
+        - **Optional Message body containing data**:
+           - Accept header : Specifies the type of data sent by server.
+           - Content-type header: Specifies the type of data sent to server by client.
+           - Example:  “text/plain”, “application/xml”, “text/html”, “application/json”, “image/gif”, and “image/jpeg”
+           - **Java XML and JSON binding**:
+              - 
         - Optional Query param, Headers.
            
            

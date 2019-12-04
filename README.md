@@ -26,6 +26,7 @@
              - GET /users?country=USA
              - GET /users?sort=birthdate_date:asc
              - GET /users?limit=100
+             
         - **Operation to perform on resource(CRUD ops specified using HTTP verb)**:
            - DELETE: 
               - Delete an existing resource.
@@ -50,7 +51,8 @@
              - PATCH http://www.example.com/customers/12345/orders/98765
              - You can pass partial data of the resource to be updated.
               - Response Code: 200 (OK)
-      
+        - **Response Codes**:
+           - https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
         - Optional Message body containing data
         - Optional Query param, Headers.
            

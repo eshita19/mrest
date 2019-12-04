@@ -2,11 +2,16 @@
 	
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.emathur.ws</groupId>
-    <artifactId>restful-service</artifactId>
+    <artifactId>mrest</artifactId>
     <version>0.1</version>
     <packaging>war</packaging>
 
 	<dependencies>
+	    <dependency>
+		    <groupId>com.sun.jersey</groupId>
+		    <artifactId>jersey-json</artifactId>
+		    <version>1.14</version>
+		 </dependency>
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-server</artifactId>

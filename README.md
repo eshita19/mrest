@@ -14,7 +14,7 @@
       - When a RESTful API is called, the server will transfer to the client a representation of the state of the requested resource.
       - Representation- Format of data, State- Requested data.
       - Making a request:
-        - Path to resource(HTTP URI)
+        - **Path to resource(HTTP URI)**
           - Paths should contain the information necessary to locate a resource with the degree of specificity needed.
           - Use Nouns instead of Verbs.
           - Resource path examples:
@@ -26,7 +26,12 @@
              - GET /users?country=USA
              - GET /users?sort=birthdate_date:asc
              - GET /users?limit=100
-        - Operation to perform on resource(CRUD ops specified using HTTP verb)
+        - **Operation to perform on resource(CRUD ops specified using HTTP verb)**:
+           - DELETE: Delete an existing resource.
+           - GET: Retrieve a representation of a resource.
+           - HEAD: Identical to a GET except that no message body is returned in the response.
+           - POST: Create a new resource to an existing URL
+           - PUT: Create a new resource to a new URL, or modify an existing resource to an existing URL.
         - Optional Message body containing data
         - Optional Query param, Headers.
            

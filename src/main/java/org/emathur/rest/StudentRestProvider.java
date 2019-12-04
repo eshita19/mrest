@@ -9,6 +9,11 @@ import javax.ws.rs.core.Response;
 
 import org.emathur.rest.beans.Student;
 
+/**
+ * Access url : http://localhost:8080/mrest/rest/students/1243
+ * @author emathur
+ */
+
 @Path("/students")
 public class StudentRestProvider {
 	
